@@ -1,0 +1,102 @@
+* {
+    margin: 0 auto;
+    font-family: cursive;
+}
+
+#navBar{
+    width: 800px;
+    height: 40px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    border-radius: 5px;
+}
+
+#feedHead{
+    text-align: center;
+}
+
+#feed{
+    width: 800px;
+    height: 650px;
+    display: flex;
+}
+
+#leftFeed{
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.leftFeedContent{
+    height: 350px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.leftFeedContent a{
+    width: 200px;
+    margin: 50px 50px;
+}
+
+.userIcon{
+    width: 80px;
+    height: 80px;
+}
+
+#rightFeed{
+    width: 500px;
+    height: 600px;
+    background: white;
+
+}
+
+#rightBox{
+    margin: 0px 0px 10px 0px;
+    width: 500px;
+    height: 180px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+
+.topTitle, .topTitle2, .topTitle3{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.likes, .likes2, .likes3{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottomCap, .bottomCap2, .bottomCap3{
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.likeButton{
+    width: 60px;
+    height: 30px;
+    background-color: #ffd966;
+    color: black;
+    border: 3px solid black;
+    box-shadow: 3px 3px black;
+}
+
+#count{
+    color: black;
+}
+
+#count2{
+    color: black;
+}
